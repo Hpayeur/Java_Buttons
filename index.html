@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Page</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title> Button Project</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Sample Page</h1>
-    </header>
-    <main>
-        <p>This is a simple HTML page structure.</p>
-    </main>
+    <div class="container">
+<img src="Images_Eleven/cute_white_kitten.jpg" alt="cute kitten" />
+<p class="This project is inside a small container, you can click to add counter or hold down the button to speed up the counter".
+</p>
+<h2 id="h22">Select your Color <span id= "colorOutput"></span></h2>
+<label type="range" id="rangeRed" value"0" min="0" max="255">Red</label>
+</br>
+<label type="range" id="rangeBlue" value"168" min="0" max="255">Blue</label>
+</br>
+<label type="range" id="rangeGreen" value"139" min="0" max="255">Green</label>
+</br>
+<button class="large red button" onelick="btnpressed()">Button</button>
+<p>Clicks: <a id="clicks">0</a></p>
+    </div>
+<script src="script.js" defer></script>
+
+
     <footer>
         <p>&copy; 2024 Sample Page</p>
     </footer>
