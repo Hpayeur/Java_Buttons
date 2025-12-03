@@ -26,19 +26,6 @@ body
     white-space: nowrap;
 }
 
-#rangeRed{
-order: 1;
-}
-#rangeBlue{
-order:2;
-}
-
-#rangeGreen{
-order: 3;
-
-
-
-}
 
 #clicker{
     background-color: #ca4c4c ;
